@@ -53,6 +53,5 @@ export const Repositories = ({ repos, setIsReposShown, setPage, user, page, setR
         <a className="repos_link" href={item.html_url}>{item.html_url}</a>
       </div>
     ))}
-    
-  </div>
+      </div>
 }

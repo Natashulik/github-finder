@@ -28,7 +28,7 @@ export const UserInfo = ({ blog, company, location}: UserInfoProps) => {
 
   return  <div className='user_info'>
       {items.map((item, index) => (
-        <InfoItem {...item} key={index} />
+        <InfoItem {...item} key={index}/>
       ))}
     </div>
 }

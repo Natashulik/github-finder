@@ -7,8 +7,8 @@ export const UserTitle = ({ name, login, created_at }: UserTitleProps) => {
   const formatedDate = localDate.format(new Date(created_at));
 
   return <div className='user_title'>
-    <h2>{name}</h2>
-    <span>Registered {formatedDate}</span>
-    <h3>@ {login}</h3>
+    <h2 className='user_title_item'>{name}</h2>
+    <span className='user_title_item'>Registered {formatedDate}</span>
+    <h3 className='user_title_item'>@ {login}</h3>
   </div>
 }
