@@ -8,7 +8,7 @@ export const defaultUser: GithubUser = {
   "blog": "",
   "location": "Belarus",
   "bio": "",
-  "public_repos": 15,
+  "public_repos": 17,
   "repos_url": "https://api.github.com/users/Natashulik/repos",
   "followers": 0,
   "followers_url": "https://api.github.com/users/Natashulik/followers",
